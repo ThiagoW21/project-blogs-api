@@ -80,7 +80,6 @@
 
 <details>
   <summary><strong>⚠️ Informações importantes sobre o projeto</strong></summary>
-  ### 👀 Observações importantes:
 
   Em cada requisito você encontrará uma imagem demonstrando como sua API deverá se comportar, dada a requisição específica.
 
