@@ -81,17 +81,9 @@
 <details>
   <summary><strong>⚠️ Informações importantes sobre o projeto</strong></summary>
 
-  Em cada requisito você encontrará uma imagem demonstrando como sua API deverá se comportar, dada a requisição específica.
-
-  O não cumprimento de um requisito, total ou parcialmente, impactará em sua avaliação.
-
-  O projeto possui uma pasta `src`, e é **fortemente recomendável que você construa sua aplicação dentro dessa pasta**.
-
   **Não é necessário usar o comando `npx sequelize-cli init`** uma vez que já é fornecido no projeto.
 
   #### Arquivos importantes
-
-  ⚠️ Essa pasta ainda conta com alguns arquivos auxiliares que serão consumidos pelo avaliador e **não devem ser apagados em nenhuma hipótese**:
 
   > `src/api.js`
   ```javascript
@@ -279,12 +271,7 @@
       "categoryId": 20 // Chave primária e estrangeira, referenciando o id de `Categories`
     }
     ```
-    *Os dados acima são fictícios, e estão aqui apenas como exemplo*
-
-    > :warning:️ Em caso de dúvidas, consulte os conteúdos:
-    > - [Transformando ideias em um modelo de banco de dados](https://app.betrybe.com/course/back-end/funcoes-sql-joins-e-normalizacao/transformando-ideias-em-um-modelo-de-banco-de-dados/a7326a61-117a-4d2f-a640-9e312b6f973b) *(Em `Database Design - Como modelar um banco de dados` > `4) Criando e modelando tabelas de acordo com um diagrama ER`)*
-    > - [ORM - Interface da aplicação com o banco de dados](https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-interface-da-aplicacao-com-o-banco-de-dados/d0fc385e-b0ce-4b3d-8246-779d5dc13682) *(Em `Migrações`)*
-    > - [ORM - Associations](https://app.betrybe.com/course/back-end/nodejs-orm-autenticacao/orm-associations/043e2e8a-c28e-4b95-a949-b7c43221ca8d) *(Em `Relacionamentos N:N`)*  
+    *Os dados acima são fictícios, e estão aqui apenas como exemplo* 
 
     ---
 
