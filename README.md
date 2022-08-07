@@ -211,9 +211,11 @@
   Esta variável de ambiente deverá ser utilizada tanto para criar o token quanto para verificá-lo. Os teste locais e o avaliador vão utilizar a variável de ambiente `JWT_SECRET` para testar os requisitos
 
   **:warning:️ Variáveis de ambiente além das especificadas acima não são suportadas, pois não são esperadas pelo avaliador do projeto.**
+</details>
 
 <br />
 
+<details>
   <summary  id="diagrama"><strong>🎲 Diagrama ER e Entidades</strong></summary>
 
   #### Diagrama de Entidade-Relacionamento
@@ -226,7 +228,7 @@
 
   #### Formato das entidades
 
-  O seu projeto deverá usar o `ORM Sequelize` para criar e atualizar o seu banco de dados. 
+  O projeto utiliza o `ORM Sequelize` para criar e atualizar o seu banco de dados. 
 
   Os primeiros requisitos do projeto devem orientar a produção de suas migrations para gerar:
 
@@ -291,11 +293,5 @@
     ```json
     "seed": "npx sequelize-cli db:seed:all"
     ```
-
-    **:eyes: OBS**: Os testes irão rodar através do seu migrate usando os scripts acima, também listados no `package.json`.
-
-    **⚠️ Preste bastante atenção, pois a alteração desses scripts pode impedir o avaliador de funcionar corretamente**
-
-    **:warning:️ Haverá um arquivo na pasta `/seeders`, que irá conter as queries para inserção no banco de dados. `Não a remova, pois o avaliador depende dela`.**
-
 <br />
+</details>
